@@ -110,7 +110,7 @@ class LocalSmartProvider(AIProvider):
         # General friendly care conversation
         if any(w in last_msg for w in ["hello", "hi", "good morning", "good evening", "how are you"]):
             return {
-                "content": "Hello! I am LEO, your AI Care Assistant. I am here to help you check your medications, look up your health vitals, contact your caregiver, or get emergency help anytime. How can I assist you today?",
+                "content": "Hello! I am EdCare, your AI Care Assistant. I am here to help you check your medications, look up your health vitals, contact your caregiver, or get emergency help anytime. How can I assist you today?",
                 "tool_calls": None
             }
 

@@ -40,7 +40,7 @@ export function Navbar() {
             </div>
             <div>
               <span className="text-lg font-extrabold text-slate-900 tracking-tight block leading-none">
-                LEO <span className="text-primary font-bold">CARE</span>
+                Ed<span className="text-primary font-bold">Care</span>
               </span>
               <span className="text-[10px] text-slate-500 font-medium tracking-wide uppercase block mt-0.5">
                 AI Elderly Care Assistant

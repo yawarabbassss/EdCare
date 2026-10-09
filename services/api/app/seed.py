@@ -268,7 +268,7 @@ def run_seed():
         db.add(Event(
             elderly_id=profile.id,
             event_type="SYSTEM_INITIALIZED",
-            description="LEO AI Care Assistant system activated for Suite 102",
+            description="EdCare AI Care Assistant system activated for Suite 102",
             severity="INFO"
         ))
         db.add(Event(

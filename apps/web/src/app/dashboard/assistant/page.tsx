@@ -16,7 +16,7 @@ export default function CaregiverAIAssistantPage() {
     {
       sender: "assistant",
       content:
-        "Hello Sarah! I am LEO Care Assistant. I can check Muhammad's medication schedules, recent vitals, fall detection logs, or dispatch family alerts on your behalf. How can I help you today?",
+        "Hello Sarah! I am EdCare Assistant. I can check Muhammad's medication schedules, recent vitals, fall detection logs, or dispatch family alerts on your behalf. How can I help you today?",
       time: "Just now",
     },
   ]);

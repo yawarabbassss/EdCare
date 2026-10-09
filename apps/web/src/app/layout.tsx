@@ -3,7 +3,7 @@ import "./globals.css";
 import { DemoControllerBar } from "@/components/DemoControllerBar";
 
 export const metadata: Metadata = {
-  title: "LEO Care | AI-Powered Elderly Care & Safety Monitoring Platform",
+  title: "EdCare | AI-Powered Elderly Care & Safety Monitoring Platform",
   description: "Production-grade AI elderly assistant featuring computer-vision fall detection, medication adherence, health vitals monitoring, and conversational voice assistance.",
 };
 

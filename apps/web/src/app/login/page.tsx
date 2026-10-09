@@ -46,7 +46,7 @@ export default function LoginPage() {
         <div className="inline-flex bg-primary text-white p-3 rounded-2xl shadow-md mb-4">
           <HeartPulse className="w-8 h-8" />
         </div>
-        <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight">Sign In to LEO Care</h2>
+        <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight">Sign In to EdCare</h2>
         <p className="mt-2 text-sm text-slate-600">
           Or select a demo role below for instant one-click testing
         </p>

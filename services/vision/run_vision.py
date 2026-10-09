@@ -15,7 +15,7 @@ def run_vision_loop(
     source: str = "0",
     max_frames: Optional[int] = None
 ):
-    logger.info(f"Starting LEO Computer Vision Fall Detection Service on camera {camera_id}...")
+    logger.info(f"Starting EdCare Computer Vision Fall Detection Service on camera {camera_id}...")
     stream = CameraStream(camera_id=camera_id, name="Living Room Cam", location="Living Room", stream_source=source)
     
     frame_count = 0

@@ -15,7 +15,7 @@ from app.ai.tools import (
 
 logger = logging.getLogger("leo.assistant")
 
-SAFETY_SYSTEM_PROMPT = """You are LEO, a compassionate, ultra-reliable AI Elderly Care Assistant.
+SAFETY_SYSTEM_PROMPT = """You are EdCare, a compassionate, ultra-reliable AI Elderly Care Assistant.
 Your primary role is to assist the elderly user with medication schedules, looking up their recorded health vitals, contacting caregivers, and triggering immediate emergency alerts when needed.
 
 CRITICAL SAFETY & MEDICAL RULES:

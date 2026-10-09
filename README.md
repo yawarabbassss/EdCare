@@ -1,11 +1,19 @@
-# LEO Care — AI-Powered Elderly Care & Safety Monitoring Platform
+# EdCare — AI-Powered Elderly Care & Safety Monitoring Platform
 
-![LEO Care Platform](https://img.shields.io/badge/System-Production--Ready-0F766E?style=for-the-badge)
-![Python 3.12+](https://img.shields.io/badge/Backend-FastAPI%20%7C%20OpenCV%20%7C%20PyTorch-3776AB?style=for-the-badge&logo=python)
-![Next.js 15+](https://img.shields.io/badge/Frontend-Next.js%2015%20%7C%20Tailwind%20%7C%20TypeScript-black?style=for-the-badge&logo=next.js)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Python 3.12+](https://img.shields.io/badge/Backend-FastAPI%20%7C%20OpenCV%20%7C%20PyTorch-3776AB?style=for-the-badge&logo=python)](https://fastapi.tiangolo.com)
+[![Next.js 15+](https://img.shields.io/badge/Frontend-Next.js%2015%20%7C%20Tailwind%20%7C%20TypeScript-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
+[![Status](https://img.shields.io/badge/Status-Production--Ready-0F766E?style=for-the-badge)](#)
 
-**LEO Care** is a full-stack, production-grade AI elderly care assistant designed to empower seniors to live independently and safely while providing caregivers and families with real-time health intelligence, multi-frame computer vision fall detection, proactive medication management, emergency escalations, and a compassionate voice companion.
+---
+
+## 🏷️ Topics & Tags
+
+`elderly-care` • `fall-detection` • `computer-vision` • `ai-assistant` • `healthcare-ai` • `fastapi` • `nextjs-15` • `react` • `yolo-pose` • `opencv` • `websockets` • `apscheduler` • `smart-health` • `recharts` • `tailwind-css` • `edge-ai`
+
+---
+
+**EdCare** is a full-stack, production-ready AI elderly care assistant designed to empower seniors to live independently and safely at home while providing family caregivers with real-time health intelligence, multi-frame computer vision fall detection, proactive medication management, emergency escalations, and a conversational AI voice companion.
 
 ---
 
@@ -14,20 +22,20 @@
 ```mermaid
 flowchart TD
     subgraph Client_Layer ["Client Layer"]
-        Elderly_Kiosk["Elderly Kiosk / Tablet\n(Web Speech STT/TTS, Large Touch Targets, SOS)"]
-        Caregiver_Dashboard["Caregiver Dashboard\n(Next.js 15, Recharts, Live Stream, Safe Zones)"]
+        Elderly_Kiosk["Elderly Kiosk / Tablet (/elderly)\n(Web Speech STT/TTS, Large Touch Targets, SOS)"]
+        Caregiver_Dashboard["Caregiver Dashboard (/dashboard)\n(Next.js 15, Recharts, Live Stream, Safe Zones)"]
     end
 
     subgraph API_Gateway ["FastAPI Gateway & Real-Time Bus"]
         FastAPI["FastAPI 0.115+ REST Endpoints\n(/api/v1/auth, /falls, /medications, /health)"]
         WS_Manager["WebSocket Event Bus\n(Real-Time Alerts, Vitals & Logs)"]
-        Scheduler["APScheduler Background Worker\n(Medication Due, Alert Escalations, Health Thresholds)"]
+        Scheduler["APScheduler Background Worker\n(Medication Due, Alert Escalations, Health Limits)"]
     end
 
     subgraph Intelligence_Layer ["AI & Computer Vision Layer"]
         Vision_Service["Computer Vision Engine\n(OpenCV / YOLO Pose, Aspect Ratio & Velocity Tracker)"]
         Safe_Zone_Filter["Safe Zone Filter\n(Suppresses Bed/Sofa False Alarms)"]
-        AI_Companion["LEO AI Companion Engine\n(Backend Tool Calling: Meds, Vitals, SOS)"]
+        AI_Companion["EdCare AI Voice Companion\n(Backend Tool Calling: Meds, Vitals, SOS)"]
     end
 
     subgraph Data_Layer ["Storage & Persistence"]
@@ -62,7 +70,7 @@ flowchart TD
 ### 2. 👵 Dedicated Accessible Elderly Interface (`/elderly`)
 - **Accessibility-First Design**: 24px+ typography, high-contrast dark palette, large tap targets.
 - **🚨 🆘 Emergency Button**: One-touch SOS with a 5-second countdown safety cancel window to prevent accidental clicks.
-- **🎙️ LEO AI Voice Companion**: Real-time Web Speech recognition and vocal synthesis. Answers: *"When is my next medicine?"*, *"What is my blood pressure?"*, or *"Call Sarah"*.
+- **🎙️ EdCare AI Voice Companion**: Real-time Web Speech recognition and vocal synthesis. Answers: *"When is my next medicine?"*, *"What is my blood pressure?"*, or *"Call Sarah"*.
 - **💊 Daily Medication Checklist**: Large dose tiles with instant "Mark Taken" feedback.
 - **📞 One-Tap Family & Doctor Dialers**.
 
@@ -170,6 +178,12 @@ To launch the complete production stack (PostgreSQL, Redis, FastAPI Backend, Nex
 ```bash
 docker compose up --build
 ```
+
+---
+
+## 📄 License
+
+This project is licensed under the terms of the [MIT License](LICENSE).
 
 ---
 

@@ -47,7 +47,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title=settings.PROJECT_NAME,
     version=settings.VERSION,
-    description="LEO AI-Powered Elderly Care & Safety Monitoring Platform API",
+    description="EdCare AI-Powered Elderly Care & Safety Monitoring Platform API",
     openapi_url=f"{settings.API_V1_STR}/openapi.json",
     docs_url="/docs",
     redoc_url="/redoc",
@@ -96,4 +96,4 @@ app.include_router(demo_router, prefix=api_v1)
 
 @app.get("/healthz", tags=["Health"])
 def health_check():
-    return {"status": "ok", "service": "LEO Elderly Care API", "version": settings.VERSION}
+    return {"status": "ok", "service": "EdCare API", "version": settings.VERSION}

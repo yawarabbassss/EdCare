@@ -29,7 +29,7 @@ export default function LandingPage() {
               <HeartPulse className="w-5 h-5" />
             </div>
             <span className="text-xl font-extrabold text-slate-900 tracking-tight">
-              LEO <span className="text-primary font-bold">CARE</span>
+              Ed<span className="text-primary font-bold">Care</span>
             </span>
           </div>
 
@@ -153,7 +153,7 @@ export default function LandingPage() {
             Important Healthcare & Safety Disclaimer
           </div>
           <p className="text-xs sm:text-sm text-amber-800 leading-relaxed">
-            LEO Elderly Care Assistant is an assistance and remote monitoring tool designed to support family caregivers. It is <strong>not</strong> a certified medical device and does not substitute for professional medical advice, clinical diagnosis, or 911 emergency services. Automated fall detection can make mistakes and should not be relied upon as the sole form of safety protection.
+            EdCare is an assistance and remote monitoring tool designed to support family caregivers. It is <strong>not</strong> a certified medical device and does not substitute for professional medical advice, clinical diagnosis, or 911 emergency services. Automated fall detection can make mistakes and should not be relied upon as the sole form of safety protection.
           </p>
         </div>
       </section>
@@ -165,10 +165,10 @@ export default function LandingPage() {
             <div className="bg-primary text-white p-1.5 rounded-lg">
               <HeartPulse className="w-4 h-4" />
             </div>
-            <span className="text-white font-bold tracking-tight">LEO Care Assistant</span>
+            <span className="text-white font-bold tracking-tight">EdCare Platform</span>
           </div>
           <p className="text-xs text-slate-500">
-            &copy; {new Date().getFullYear()} LEO Elderly Care Assistant. Privacy-first, local-vision architecture.
+            &copy; {new Date().getFullYear()} EdCare — AI Elderly Care & Safety Monitoring. Privacy-first, local-vision architecture.
           </p>
         </div>
       </footer>

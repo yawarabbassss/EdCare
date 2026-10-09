@@ -3,7 +3,7 @@ from typing import List, Optional
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "LEO Elderly Care Assistant"
+    PROJECT_NAME: str = "EdCare - AI Elderly Care Assistant"
     API_V1_STR: str = "/api/v1"
     VERSION: str = "1.0.0"
     DEBUG: bool = True

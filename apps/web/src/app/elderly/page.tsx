@@ -29,7 +29,7 @@ export default function ElderlyKioskPage() {
     blood_oxygen: "98%",
   });
   const [aiResponse, setAiResponse] = useState<string>(
-    "Hello Muhammad! I am LEO, your care companion. How can I help you today?"
+    "Hello Muhammad! I am EdCare, your care companion. How can I help you today?"
   );
   const [isListening, setIsListening] = useState(false);
   const [transcript, setTranscript] = useState("");
@@ -262,7 +262,7 @@ export default function ElderlyKioskPage() {
                     <Sparkles className="w-7 h-7" />
                   </div>
                   <div>
-                    <h2 className="text-2xl sm:text-3xl font-bold text-white">LEO Care Assistant</h2>
+                    <h2 className="text-2xl sm:text-3xl font-bold text-white">EdCare Assistant</h2>
                     <span className="text-teal-400 text-sm font-semibold">Voice & Text Companion</span>
                   </div>
                 </div>
@@ -298,7 +298,7 @@ export default function ElderlyKioskPage() {
                 className="w-full bg-teal-600 hover:bg-teal-500 text-white text-2xl font-bold py-5 px-6 rounded-2xl shadow-lg flex items-center justify-center gap-3 transition-transform active:scale-95 disabled:opacity-50"
               >
                 <Mic className="w-8 h-8 text-white" />
-                {isListening ? "Listening to your voice..." : "Tap to Speak to LEO"}
+                {isListening ? "Listening to your voice..." : "Tap to Speak to EdCare"}
               </button>
 
               {/* Quick Prompt Presets */}
